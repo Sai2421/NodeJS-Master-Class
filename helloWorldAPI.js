@@ -6,6 +6,8 @@
 //Dependencies
 var http = require('http');
 var url = require('url');
+
+// instantiate the server
 var server = http.createServer(function(req,res){
  
  // parsing url   
